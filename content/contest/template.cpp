@@ -1,14 +1,28 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-#define rep(i, a, b) for(int i = a; i < (b); ++i)
-#define all(x) begin(x), end(x)
-#define sz(x) (int)(x).size()
-typedef long long ll;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
+typedef long double ld;
+typedef int64_t ll;
+typedef uint64_t ull;
 
-int main() {
-	cin.tie(0)->sync_with_stdio(0);
-	cin.exceptions(cin.failbit);
+#define pb push_back
+#define F first
+#define S second
+
+#define all(x) x.begin(),x.end()
+#define f(i,a,b) for (ll i=a; i<b; ++i)
+#define rev(i,a,b) for (ll i=a; i>b; --i)
+#define vec vector
+
+const ll N = 2e5 + 10;
+const ll INF = LLONG_MAX/4;
+const ll MOD = 998244353;
+
+void solve(){}
+
+signed main(){
+    cin.tie(0)->sync_with_stdio(0);
+    int t; cin>>t; while(t--)
+    solve();
 }
